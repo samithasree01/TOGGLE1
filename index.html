@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+<style>
+ body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+ </style>
+</head>
+
+<body>
+    <h2>Puppy...</h2>
+    <img src="imagepuppy.jpg" style="height: 500px; width: 500px;">
+    <p>The Puggle dog, a hybrid breed created by crossing Beagles and Pugs, has become popular for their fun-loving personality and cute looks. First bred in the United States in the 1980s, Puggles have become increasingly popular in recent years. Puggles are known for their friendly and playful personalities, and they make great family pets.</p>
+    <p>Hey This is sam toggle kindly touch the toggle button given below.</p>
+    <button onclick="myFunction()">Toggle</button>
+    <script>
+    function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
+    </script>
+</body>
+
+</html>
